@@ -15,7 +15,8 @@
   "type": "commonjs",
   "main": "main.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "npx ts-node src/main.ts"
   },
   "dependencies": {
     "jest": "^30.2.0"
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }
 }

@@ -8,10 +8,11 @@ TypeScript project with a merge function and comprehensive tests.
 npm install
 ```
 
-## Run Tests
+## Run
 
 ```bash
-npm test
+npm test          # Run tests
+npm run dev       # Run the main TypeScript file
 ```
 
 ## Function API
